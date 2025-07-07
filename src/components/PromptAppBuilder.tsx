@@ -91,7 +91,11 @@ export default function PromptAppBuilder() {
           )}
 
           {stage === 2 && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-2">
+            <motion.div<HTMLDivElement>
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="space-y-2"
+            >
               <p className="font-medium">2️⃣ 誰會使用這個 App？</p>
               <Input
                 value={users}
