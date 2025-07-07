@@ -91,7 +91,7 @@ export default function PromptAppBuilder() {
           )}
 
           {stage === 2 && (
-            <motion.div<HTMLDivElement>
+            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               className="space-y-2"
