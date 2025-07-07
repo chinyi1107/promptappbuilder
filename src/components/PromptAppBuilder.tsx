@@ -122,7 +122,7 @@ export default function PromptAppBuilder() {
 
           {stage === 3 && (
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p className="font-medium">3️⃣ 希望有哪些功能？</p>
+              <p className="space-y-2">3️⃣ 希望有哪些功能？</p>
               <Textarea
                 value={functions}
                 onChange={(e) => setFunctions(e.target.value)}
